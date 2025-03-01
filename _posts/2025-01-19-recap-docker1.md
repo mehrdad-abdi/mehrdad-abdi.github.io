@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Docker recap for testers - part 1"
-date: 2025-03-01
+date: 2025-01-19
 categories: blog
 tags: [docker, testing, recap]
 author: "Mehrdad Abdi"
@@ -298,12 +298,22 @@ docker run my-flask-app:v1
 Let’s talk about optimization. Smaller images are faster and more secure. Here’s how to keep them lean:
 
 - Use lightweight base images like `alpine` instead of `ubuntu`.
+```
+FROM python:3.9-alpine
+```
+- Minimize layers: Combine commands to reduce layers:
+```
+RUN apt-get update && apt-get install -y python3 && pip install -r requirements.txt 
+```
 - Clean up unnecessary files after installing dependencies:
-
 ```
 RUN apt-get update && apt-get install -y python3 && rm -rf /var/lib/apt/lists/*
 ```
-
+- Use `.dockerignore`: Just like `.gitignore`, this file prevents unnecessary files from being added to the image.
+```
+__pycache__/
+*.log
+```
 - Multi-stage builds: Compile your code in one stage, then copy the result into a minimal image.
 
 

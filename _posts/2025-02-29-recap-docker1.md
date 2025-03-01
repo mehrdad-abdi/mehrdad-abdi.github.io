@@ -8,6 +8,7 @@ author: "Mehrdad Abdi"
 img: docker-recap.webp
 ---
 
+In this post, we recap docker containers concepts and provide a small cheatsheet.
 This content is created with the assistance of ChatGPT to enhance clarity, structure, and accuracy. Efforts have been made to ensure the information is correct.
 
 # 1. Docker Fundamentals

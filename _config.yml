@@ -1,8 +1,8 @@
 title: Mehrdad Abdi
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Senior Software Engineer in Testing | PhD in Software Engineering
+  Passionate about test automation, AI, and software quality. Always exploring new technologies and sharing insights.
+  This homepage serves as my digital notebook for learning and experimentation.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mehrdad-abdi.github.io" # the base hostname & protocol for your site, e.g. http://example.com

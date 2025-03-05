@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swash Whitepaper"
-date: 2019-02-01
+date: 2021-07-01
 categories: blog
 tags: [swash, whitepaper, web3]
 author: "Mehrdad Abdi"

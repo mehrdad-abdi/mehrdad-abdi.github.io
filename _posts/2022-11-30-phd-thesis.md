@@ -16,7 +16,7 @@ I studied leveraging the information from software ecosystems in improving testi
 SmallAmp, a tool that I implemented during my Phd years, is a search-based test amplification that utilize the existing test methods and improve it based on mutation coverage.
 
 The cover image is created by DALL-E.
-Similar to the cover image that is generated from a prompt, a code assistant that understand the code, and you can ask it generate a unit tests.	
-I'm looking forward to employ the recent advancements in code analysis and test amplification.
+Similar to the cover image that is generated from a prompt, I'm looking forward to employ the recent advancements in code analysis and test amplification.
+Imagine a code assistant that understand the code, and you can ask it generate a unit tests.	
 Exciting world is comming!
 
